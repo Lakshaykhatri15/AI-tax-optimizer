@@ -1,0 +1,32 @@
+{
+  "name": "taxoptimizer-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "recharts": "^2.13.0",
+    "axios": "^1.7.7",
+    "zustand": "^5.0.0",
+    "@tanstack/react-query": "^5.56.2",
+    "clsx": "^2.1.1",
+    "react-dropzone": "^14.2.3",
+    "react-hot-toast": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.6",
+    "typescript": "^5.5.3",
+    "tailwindcss": "^3.4.12",
+    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
+}
